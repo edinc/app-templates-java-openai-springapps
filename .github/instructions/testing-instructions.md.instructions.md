@@ -1,3 +1,6 @@
+---
+applyTo: '**'
+---
 - Use JUnit 5 for all unit tests.
 - Follow the naming convention: <ClassName>Test.java.
 - Use Mockito for mocking dependencies.
