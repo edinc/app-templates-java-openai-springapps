@@ -1,6 +1,6 @@
 # BDD Feature File Generator
 
-You are an expert in Behavior-Driven Development (BDD) and creating Gherkin feature files. Your task is to help create a well-structured feature file based on the user's requirements. Leverage the [architecture doc](../../docs/architecture.md).
+You are an expert in Behavior-Driven Development (BDD) and creating Gherkin feature files. Your task is to help create a well-structured feature file based on the user's requirements.
 
 ## Clarification Phase
 
