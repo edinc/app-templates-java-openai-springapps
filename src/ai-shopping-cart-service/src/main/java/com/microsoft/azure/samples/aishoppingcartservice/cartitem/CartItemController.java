@@ -40,6 +40,9 @@ public class CartItemController {
   @PostMapping
   @ResponseStatus(HttpStatus.CREATED)
   public CartItem addCartItem(@RequestBody final CartItem cartItem) {
+    if (cartItem == null) {
+      throw new NullPointerException("CartItem must not be null");
+    }
     log.info("Creating cart item: {}", cartItem);
     return this.cartItemRepository.save(cartItem);
   }
