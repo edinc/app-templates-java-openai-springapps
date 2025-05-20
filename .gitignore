@@ -1,6 +1,7 @@
 .azure
 .vscode
 .node_modules
+frontend/node_modules
 tests/*.js
 src/frontend/*.js
 !src/frontend/*.ts
