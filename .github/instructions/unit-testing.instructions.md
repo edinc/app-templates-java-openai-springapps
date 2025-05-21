@@ -1,6 +1,7 @@
 - Use JUnit 5 for all unit tests.
-- Follow the naming convention: <ClassName>Test.java.
+- Follow the naming convention: `Test.java`.
 - Use Mockito for mocking dependencies.
 - Always include tests for null inputs, edge cases, and exceptions.
+- Test one function/method at a time
 - Prefer `assertThrows` for exception testing.
 - Place all test files in the `src/test/java` directory.
