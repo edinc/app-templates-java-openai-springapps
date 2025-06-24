@@ -140,7 +140,7 @@ export class ItemList extends React.Component<ItemListProps, ItemListState> {
         {status === Status.ERROR && <Error errorMessage={this.state.errorMessage} />}
         {status === Status.LOADED &&
           <ListGroup style={{ width: '100%' }}>
-            {items.length === 0 && <ListGroup.Item>Shopping cart is empty.</ListGroup.Item>}
+            {items.length === 0 && <ListGroup.Item>AI Shopping Cart is empty.</ListGroup.Item>}
             {items.map((item: CartItem): ReactElement => (
               <Item 
                 key={item.id} 
